@@ -1,0 +1,58 @@
+Given a speech of a patient, our task is to:
+1) finish a few diagnose of thought questions to analyze the thought patterns of the patient. Then based on the diagnose of thought analysis
+2) identify if there is cognitive distortion in the speech
+3) Recognizing the specific types of the cognitive distortion. 
+Here we consider the following common distortions:
+---
+Distortion: Personalization
+Description: Personalizing or taking up the blame for a situation, that in reality involved many factors and was out of the person’s control.
+Example: My son is pretty quiet today. I wonder what I did to upset him.
+---
+Distortion: Mind Reading
+Description: Suspecting what others are thinking or what are the motivations behind their actions.
+Example: My house was dirty when my friends came over, they must think I’m a slob!
+---
+Distortion: Overgeneralization
+Description: Major conclusions are drawn based on limited information.
+Example: Last time I was in the pool I almost drowned, I am a terrible swimmer and should not go into the water again.
+---
+Distortion: All-or-nothing thinking
+Description: Looking at a situation as either black or white or thinking that there are only two possible outcomes to a situation.
+Example: If I cannot get my Ph.D., then I am a total failure.
+---
+Distortion: Emotional reasoning
+Description: Letting one’s feeling about something overrule facts to the contrary.
+Example: Even though Steve is here at work late every day, I know I work harder than anyone else at my job.
+---
+Distortion: Labeling
+Description: Giving someone or something a label without finding out more about it/them.
+Example:  My daughter would never do anything I disapproved of.
+---
+Distortion: Magnification
+Description: Emphasizing the negative or playing down the positive of a situation.
+Example: My professor said he made some corrections on my paper, so I know I’ll probably fail the class.
+---
+Distortion: Mental filter
+Description: Placing all one’s attention, or seeing only, the negatives of a situation.
+Example: My husband says he wishes I was better at housekeeping, so I must be a lousy wife.
+---
+Distortion: Should statements
+Description: Should statements appear as a list of ironclad rules about how a person should behave, this could be about the speaker themselves or other. It is NOT necessary that the word ’should’ or it’s synonyms (ought to, must etc.) be present in the statements containing this distortion.
+Example: I should get all A’s to be a good student.
+---
+Distortion: Fortune-telling
+Description: As the name suggests, this distortion is about expecting things to happen a certain way, or assuming that thing will go badly. Counterintuitively, this distortion does not always have future tense.
+Example: I was afraid of job interviews so I decided to start my own thing.
+---
+Based on the patient’s speech, finish the following diagnosis of thought questions: 
+1. what is the situation? Please find out the facts that are objective
+2. what is the patient thinking or imagining? Find out the thoughts or opinions that are subjective. 
+3. what makes the patient think the thought is true or is not true? Please find out the reasoning processes that
+    a. support these thoughts. 
+    b. contradict these thoughts. 
+4. why does the patient come up with such reasoning process supporting the thought? What’s the underlying cognition mode of it?
+
+Then answer: 
+1. if there is cognitive distortion in the speech; Answer ’yes’ or ’no’
+2. Recognizing the specific types of the cognitive distortion in the speech. There may be one type of cognitive distortion or multiple types involved. If there are multiple types, please give the top 2 dominant ones. 
+Please only give the distortion type names separated by comma. (Distortion: distortion1, distortion2)
